@@ -45,7 +45,7 @@ pub mod playground;
 pub mod query;
 mod report;
 mod solver;
-mod state;
+pub mod state;
 mod test;
 
 pub(crate) use compat::*;
